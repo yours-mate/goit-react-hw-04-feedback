@@ -12,6 +12,7 @@ export function App() {
   function handleIncrement(type) {
     switch (type) {
       case 'good':
+        console.log(good);
         return setGood(good => good + 1);
       case 'neutral':
         return setNeutral(neutral => neutral + 1);
